@@ -1,3 +1,35 @@
+html, body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.navbar {
+    background-color: #002F2F;
+    line-height: 4em;
+    padding: 0 1em;
+    position: fixed;
+    top: 0em;
+    width: 100%;
+}
+
+.navbar a,
+.navbar a:link,
+.navbar a:visited,
+.navbar a:hover,
+.navbar a:active {
+    color: #E6E2AF;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 1em;
+}
+
+.navbar a:hover {
+    color: #C7C397;
+}
+
+
 .p1 {
     padding-top: 5em;
     text-align: center;
