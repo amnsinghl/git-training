@@ -16,13 +16,31 @@ For *OSX*
 
         brew install git
 
-  * Install Beyond Compare (paid; meld is a free option, `brew install homebrew/gui/meld`)
+  * Install a merge/diff tool
+  
+  Any one of the following is fine: (Beyond Compare, FileMerge, Meld)
+
+  ### Beyond Compare (paid)
 
   Install Beyond Compare (`brew cask install beyond-compare`). Launch Beyond Compare, go to the Beyond Compare menu and run Install Command Line Tools. Then:
 
         git config --global merge.tool bc3
         git config --global mergetool.bc3 trustExitCode true
         git config --global diff.tool bc3
+
+  ### Meld (free)
+  
+  `brew install homebrew/gui/meld`
+
+  ### FileMerge (part of XCode; effectively free with a Mac)
+
+  Install Xcode from App Store. Then 
+
+  ```
+  xcode-select -s /Applications/Xcode.app/Contents/Developer
+  git config --global merge.tool opendiff
+  git config --global diff.tool opendiff
+  ```
 
 ## Usage notes
 
@@ -37,5 +55,3 @@ Open 2 windows (each using half the screen)
         live-server &
 
 2. A browser window (automatically opened by live-server, pointing to http://localhost:8080)
-
-
