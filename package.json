@@ -1,0 +1,25 @@
+{
+  "name": "git-training",
+  "version": "1.0.0",
+  "description": "This repo is meant to be used in demonstrating git merge conflicts.",
+  "main": "demo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/media-net/git-training.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/media-net/git-training/issues"
+  },
+  "homepage": "https://github.com/media-net/git-training#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "typescript": "^2.3.4"
+  }
+}

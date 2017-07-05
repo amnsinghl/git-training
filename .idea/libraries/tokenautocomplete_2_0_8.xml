@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="tokenautocomplete-2.0.8">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/f681ac035addfab392697949cb402a2c7c3ed0b0/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/f681ac035addfab392697949cb402a2c7c3ed0b0/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.splitwise/tokenautocomplete/2.0.8/8a7edb0574a5cf991844a6e13dad661b1e3e414e/tokenautocomplete-2.0.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

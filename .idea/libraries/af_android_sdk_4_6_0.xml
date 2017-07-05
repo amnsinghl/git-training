@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="af-android-sdk-4.6.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/cbc5893b4e37daccaa0f715289f652053ed6f3ff/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/cbc5893b4e37daccaa0f715289f652053ed6f3ff/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.appsflyer/af-android-sdk/4.6.0/e4b5eaf81a36e578c5102bdb6106833e0abba3fa/af-android-sdk-4.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
