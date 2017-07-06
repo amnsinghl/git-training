@@ -1,1 +1,2 @@
 File C
+content of file C
